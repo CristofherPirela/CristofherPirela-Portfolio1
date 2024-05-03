@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}
+
+/* colors */
+body {
+    background-color: #ece4d7;
+}
+
+.card {
+    background-color: #ede2ce;
+}
+
+/* Estilos para el título */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+.image {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.entradaImagen {
+    width: 80px;
+}
+
+.Tarjetas {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    margin-bottom: 250px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+    background-color: #ff9317;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card {
+    margin: 25px;
+}
+
+.Footer {
+    background-color: #ede2ce;
+    height: 210px;
+    color: black;
+    margin-top: 300px;
+}
+
+.titulos-Footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170px;
+}
+
+.redes-sociales {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.redes-sociales a svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Quien soy */
+
+.sobre-mi-principal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 30vh;
+    text-align: center;
+}
+
+.sobreMi {
+    background-color: #ff9317;
+    color: black;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+
+.parrafo-container {
+    width: 35%;
+    margin: 0 auto;
+    margin-left: 30vh;
+    padding: 12px;
+    border: 1px solid #585151;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.parrafo-principal {
+    text-align: justify;
+    margin-bottom: 2px;
+}
+
+.mis-habilidades {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 30vh;
+    text-align: center;
+}
+
+.habilidades {
+    background-color: #ff9317;
+    color: black;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+
+.parrafo-container-habilidades {
+    width: 35%;
+    margin: 0 auto;
+    margin-left: 105vh;
+    padding: 12px;
+    border: 1px solid #585151;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidad {
+    margin: 13px;
+    background-color: #ff9317;
+    padding: 7px;
+    color: black;
+    border-radius: 5px;
+}
+
+.redessobremi {
+    background-color: #ff9317;
+    color: black;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+
+.redesSociales-sobremi {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 30vh;
+    text-align: center;
+}
+
+.redesSocialesSobreMi {
+    width: 35%;
+    margin: 0 auto;
+    margin-left: 30vh;
+    padding: 12px;
+    border: 1px solid #585151;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+
+.redSocial a svg {
+    width: 30px;
+    height: 25px;
+    color: black;
+}
+
+.paraAcomodarLasRedes {
+    display: flex;
+    margin: 10px;
+}
+
+.imagenNavBar {
+    width: 40px;
+}
+
+.navbar {
+    background-color: #ede2ce;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: black;
+}
+
+.proyectos-container {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 68vh;
+    padding: 12px;
+    border: 1px solid #585151;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.proyectos {
+    text-align: justify;
+    margin-bottom: 2px;
+}
+
+.proyectos-titulo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30vh;
+    margin-bottom: 10px;
+    margin-left: 68vh;
+    text-align: center;
+}
+
+.titulo-proyecto {
+    background-color: #ff9317;
+    color: black;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+.tarjetas-proyecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
