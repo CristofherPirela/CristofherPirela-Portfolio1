@@ -252,3 +252,131 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
+/* ! 1000px 
+@media (max-width:1000px) {
+
+   .habilidades{
+    justify-content: center;
+    margin-right:45px;
+   }
+   .parrafo-container-habilidades{
+    margin-left: 43vh;
+   }
+
+   .sobre-mi-principal{
+    justify-content: center;
+   }
+   .parrafo-container{
+    margin-left: 41vh;
+   }
+   .redesSociales-sobremi{
+    justify-content: center;
+    margin-right:40px ;
+   }
+   .redesSocialesSobreMi{
+    margin-left:360px;
+   }
+   .paraAcomodarLasRedes{
+    justify-content: end;
+   }
+}
+
+/*! 800px */
+/* @media (max-width:800px) {
+
+    .habilidades{
+     justify-content: start;
+     margin-right:22vh;
+    }
+    .parrafo-container-habilidades{
+     margin-left: 25vh;
+     width: 50%;
+    }
+ 
+    .sobre-mi-principal{
+     justify-content: start;
+     margin-left:25vh ;
+    }
+    .parrafo-container{
+     margin-left: 25vh;
+     width: 50%;
+    }
+    .redesSociales-sobremi{
+     justify-content: start;
+     margin-right: 0 ;
+     margin-left: 25vh;
+    }
+    .redesSocialesSobreMi{
+     margin-left:25vh;
+    }
+    .paraAcomodarLasRedes{
+     justify-content: start;
+    }
+ } */
+/*! 700px */
+/* @media (max-width:700px){
+    .sobre-mi-principal{
+        
+        margin-left: 23vh ;
+    }
+    .parrafo-container{
+        
+        margin-left:23vh ;
+        width: 50%;
+    }
+    .habilidades{
+        margin-right:13vh;
+    }
+    .parrafo-container-habilidades{
+        width: 50%;
+        margin-left: 23vh;
+    }
+    .redesSociales-sobremi{
+        margin-left:23vh ;
+    }
+    .redesSocialesSobreMi{
+        width: 50%;
+        margin-left: 23vh;
+
+    }
+    .paraAcomodarLasRedes{
+        justify-content: center;
+    }
+}  */
+/*! iphone 14 pro max 430 px */
+
+@media (max-width:430px){
+    .sobre-mi-principal{
+        justify-content: start;
+        margin-left: 8vh;
+        margin-top: 5vh;
+    }
+    .parrafo-container{
+        width: 65%;
+        margin-left: 8vh;
+        margin-bottom: 5vh;
+    }
+    .parrafo-container-habilidades{
+        margin-left: 8vh;
+        width: 65%;
+        margin-bottom: 5vh;
+    }
+    .habilidad{
+        padding: 3px;
+    }
+    .mis-habilidades{
+        margin-right: 23vh;
+    }
+    .redesSociales-sobremi{
+        margin-left: 8vh;
+        margin-top:5vh;
+    }
+    .redesSocialesSobreMi{
+        margin-left: 8vh;
+        width: 65%;
+    }
+    .paraAcomodarLasRedes{
+        justify-content: start;
+    }
+}
