@@ -13,54 +13,47 @@
 body {
     background-color: #ece4d7;
 }
+/*! XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*? INDEX */
+
 
 .card {
     background-color: #ede2ce;
 }
 
 /* Estilos para el título */
-.title {
+.titulo {
     text-align: center;
     margin-bottom: 20px;
 }
 
 /* Estilos para la imagen */
-.image {
+.logoContenedor {
     text-align: center;
     margin-top: 250px;
 }
 
-.entradaImagen {
+.logo {
     width: 80px;
 }
-
-.Tarjetas {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-    margin-bottom: 250px;
-}
-
-.card-link {
-    text-decoration: none;
-    color: black;
-    background-color: #ff9317;
-    padding: 5px;
+.breveDescripcion{
+    width: 35%;
+    margin: 0 auto;
+    margin-left: vh;
+    padding: 12px;
+    border: 1px solid #585151;
     border-radius: 10px;
+    margin-bottom: 150px;
 }
-
-.card {
-    margin: 25px;
-}
-
-.Footer {
+.footerSection {
     background-color: #ede2ce;
     height: 210px;
     color: black;
     margin-top: 300px;
 }
 
-.titulos-Footer {
+.titulosFooter {
     color: black;
     display: flex;
     justify-content: center;
@@ -69,27 +62,51 @@ body {
     height: 170px;
 }
 
-.redes-sociales {
+.contenedorRedesSociales{
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 
-.redes-sociales a {
+.contenedorRedesSociales a {
     display: flex;
     flex-direction: row;
     margin-right: 10px;
     justify-content: center;
 }
 
-.redes-sociales a svg {
+.contenedorRedesSociales a svg {
     width: 24px;
     height: 24px;
 }
 
-/* Quien soy */
+/*! XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-.sobre-mi-principal {
+/*?  En espera */
+
+.body{
+    background-color: #274156;
+}
+.imagen{
+    width: 80px;
+
+}
+.section{
+    text-align: center;
+    margin-top: 40vh;
+}
+.parrafo{
+    color: white;
+}
+
+
+
+/*! XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*? Quien soy */
+
+.contenedorSobreMi{
     display: flex;
     justify-content: start;
     align-items: center;
@@ -106,7 +123,7 @@ body {
     border-radius: 7px;
 }
 
-.parrafo-container {
+.contenedorParrafoSobreMi {
     width: 35%;
     margin: 0 auto;
     margin-left: 30vh;
@@ -116,12 +133,12 @@ body {
     margin-bottom: 150px;
 }
 
-.parrafo-principal {
+.parrafoSobreMI{
     text-align: justify;
     margin-bottom: 2px;
 }
 
-.mis-habilidades {
+.contenedorMisHabilidades{
     display: flex;
     justify-content: end;
     align-items: center;
@@ -137,7 +154,7 @@ body {
     border-radius: 7px;
 }
 
-.parrafo-container-habilidades {
+.contenedorParrafoHabilidades{
     width: 35%;
     margin: 0 auto;
     margin-left: 105vh;
@@ -147,7 +164,7 @@ body {
     margin-bottom: 150px;
 }
 
-.lista-habilidades {
+.listaHabilidades {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -162,7 +179,7 @@ body {
     border-radius: 5px;
 }
 
-.redessobremi {
+.redesSociales {
     background-color: #ff9317;
     color: black;
     padding: 5px;
@@ -170,7 +187,7 @@ body {
     border-radius: 7px;
 }
 
-.redesSociales-sobremi {
+.contenedorTituloRedes {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -179,7 +196,7 @@ body {
     text-align: center;
 }
 
-.redesSocialesSobreMi {
+.seccionDeRedesSociales {
     width: 35%;
     margin: 0 auto;
     margin-left: 30vh;
@@ -195,7 +212,7 @@ body {
     color: black;
 }
 
-.paraAcomodarLasRedes {
+.listaRedesSociales {
     display: flex;
     margin: 10px;
 }
@@ -213,464 +230,9 @@ body {
     color: black;
 }
 
-.proyectos-container {
-    width: 40%;
-    margin: 0 auto;
-    margin-left: 68vh;
-    padding: 12px;
-    border: 1px solid #585151;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
+/*! XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/*? PROYECTOS */
 
-.proyectos {
-    text-align: justify;
-    margin-bottom: 2px;
-}
 
-.proyectos-titulo {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-top: 30vh;
-    margin-bottom: 10px;
-    margin-left: 68vh;
-    text-align: center;
-}
 
-.titulo-proyecto {
-    background-color: #ff9317;
-    color: black;
-    padding: 5px;
-    margin-top: 50px;
-    border-radius: 7px;
-    font-size: 30px;
-}
-
-.tarjetas-proyecto {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-/*! 1300px*/
-@media (max-width:1300px){  
-   .habilidades{
-    margin-right: 0vh;
-   }
-   .parrafo-container-habilidades{
-    margin-left: 70vh;
-   }
-}
-@media (max-width: 1200px){
-    .parrafo-container-habilidades{
-        margin-left: 65vh;
-    }
-}
-@media (max-width: 1100px){
-    .parrafo-container-habilidades{
-        margin-left: 57vh;
-    }
-}
-/*! 1000px*/
- @media (max-width:1000px) {
-   .habilidades{
-    justify-content: center;
-    margin-right:45px;
-   }
-   .parrafo-container-habilidades{
-    margin-left: 43vh;
-   }
-
-   .sobre-mi-principal{
-    justify-content: center;
-   }
-   .parrafo-container{
-    margin-left: 41vh;
-   }
-   .redesSociales-sobremi{
-    justify-content: center;
-    margin-right:40px ;
-   }
-   .redesSocialesSobreMi{
-    margin-left:360px;
-   }
-   .paraAcomodarLasRedes{
-    justify-content: end;
-   }
-} 
-/*!950px*/
-@media(max-width:950px){
-    .sobre-mi-principal{
-        margin-left: 0vh;
-    }
-    .habilidades{
-        margin-right: 40vh;
-    }
-    .parrafo-container-habilidades{
-        margin-left: 25vh;
-        width: 60%;
-    }
-    .parrafo-container{
-        width: 60%;
-        margin-left:26vh ;
-    }
-    .sobre-mi-principal{
-        margin-right: 47vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 0vh;
-        margin-right: 38vh;
-    }
-    .redesSocialesSobreMi{
-        margin-left: 26vh ;
-        width: 60%;
-    }
-    .paraAcomodarLasRedes{
-        justify-content: start;
-    }
-}
-/*! 900px*/
-@media (max-width:900px){
-    .sobre-mi-principal{
-        margin-left: 5vh;
-    }
-    .mis-habilidades{
-        margin-right: 25vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 5vh;
-    }
-}
-/*!850px*/
-@media (max-width:850px){
-    .sobre-mi-principal{
-        margin-left: 11vh;
-    }
-    .mis-habilidades{
-        margin-right: 19vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 11vh;
-    }
-}
-/*! 800px */
-@media (max-width:800px) {
-
-    .habilidades{
-     justify-content: start;
-     margin-right:34vh;
-    }
-    .parrafo-container-habilidades{
-     margin-left: 25vh;
-     width: 50%;
-    }
- 
-    .sobre-mi-principal{
-     justify-content: start;
-     margin-left:25vh ;
-    }
-    .parrafo-container{
-     margin-left: 25vh;
-     width: 50%;
-    }
-    .redesSociales-sobremi{
-     justify-content: start;
-     margin-right: 0 ;
-     margin-left: 25vh;
-    }
-    .redesSocialesSobreMi{
-     margin-left:25vh;
-     width: 50%;
-    }
-    .paraAcomodarLasRedes{
-     justify-content: start;
-    }
- }
- /*! 750px*/
- @media (max-width:750px){
-    .habilidades{
-        margin-right: 29vh;
-    }
- }
-/*! 700px */
-@media (max-width:700px){
-    .sobre-mi-principal{
-        
-        margin-left: 23vh ;
-    }
-    .parrafo-container{
-        
-        margin-left:23vh ;
-        width: 50%;
-    }
-    .habilidades{
-        margin-right:24vh;
-    }
-    .parrafo-container-habilidades{
-        width: 50%;
-        margin-left: 23vh;
-    }
-    .redesSociales-sobremi{
-        margin-left:23vh ;
-    }
-    .redesSocialesSobreMi{
-        width: 50%;
-        margin-left: 23vh;
-
-    }
-    .paraAcomodarLasRedes{
-        justify-content: center;
-    }
-} 
-/*! 650px*/
-@media (max-width:650px){
-    .sobreMi{
-        font-size: 20px;
-    }
-    .sobre-mi-principal{
-        width: 23%;
-        margin-left: 17vh;
-    }
-    .parrafo-container{
-        width: 60%;
-        margin-left: 17vh;
-    }
-    .habilidades{
-        font-size: 20px;
-    }
-    .parrafo-container-habilidades{
-        width: 60%;
-        margin-left: 17vh;
-    }
-    .mis-habilidades{
-        margin-right: 23vh;
-    }
-    .redessobremi{
-        font-size: 20px;
-    }
-    .redesSocialesSobreMi{
-        width: 60%;
-        margin-left: 17vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 17vh;
-    }
-    .paraAcomodarLasRedes{
-        justify-content: start;
-    }
-}
-/*! 600px*/
-@media (max-width:600px){
-    .mis-habilidades{
-        margin-right:17vh;
-    }
-    .habilidades{
-        font-size: 19px;
-    }
-    .sobreMi{
-        font-size: 19px;
-    }
-    .redessobremi{
-        font-size: 19px;
-    }
-}
-/*!550px */
-@media (max-width:550px){
-    .sobre-mi-principal{
-        margin-left: 12vh;
-    }
-    .parrafo-container{
-        margin-left: 12vh;
-        width: 65%;
-    }
-    .habilidades{
-        margin-right: 23vh;
-    }
-    .parrafo-container-habilidades{
-        margin-left: 12vh;
-        width: 65%;
-    }
-    .redesSocialesSobreMi{
-        width: 65%;
-        margin-left: 12vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 12vh;
-    }
-}
-/*! 500px*/
-@media (max-width:500px){
-    .mis-habilidades{
-        margin-right:11vh ;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-
-/*! 450px */
-@media (max-width:450px){
-    .parrafo-container{
-        margin-left: 9vh;
-        width: 70%;
-    }
-    .sobre-mi-principal{
-        margin-left: 9vh;
-    }
-    .parrafo-container-habilidades{
-        margin-left: 9vh;
-        width: 70%;
-    }
-    .habilidad{
-        padding: 3px;
-    }
-    .mis-habilidades{
-        margin-right: 8vh;
-    }
-    .redesSocialesSobreMi{
-        width: 70%;
-        margin-left: 9vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 9vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 440px*/
-@media (max-width: 440px){
-    .mis-habilidades{
-        margin-right: 7vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 430px*/
-@media (max-width:430px){
-    .mis-habilidades{
-        margin-right: 6vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 420px*/
-@media(max-width: 420px){
-    .mis-habilidades{
-        margin-right: 5vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 410px*/
-@media (max-width: 410px){
-    .mis-habilidades{
-        margin-right: 3vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 400px*/
-@media (max-width: 400px){
-    .sobreMi{
-        font-size: 18px;
-    }
-    .mis-habilidades{
-        margin-right: 3vh;
-    }
-    .habilidades{
-        font-size:18px ;
-    }
-    .redessobremi{
-        font-size: 18px;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 390px*/
-@media (max-width:390px){
-    .mis-habilidades{
-        margin-right: 2vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*!380px*/
-@media (max-width:380px){
-    .parrafo-container{
-        margin-left: 7vh;
-    }
-    .sobreMi{
-        font-size: 17px;
-    }
-    .sobre-mi-principal{
-        margin-left: 7vh;
-    }
-    .parrafo-container-habilidades{
-        margin-left: 7vh;
-        
-    }
-    .habilidad{
-        padding: 2px;
-        font-size: 15px;
-    }
-    .mis-habilidades{
-        margin-right: 3vh;
-    }
-    .habilidades{
-        font-size: 17px;
-    }
-    .redesSocialesSobreMi{
-        margin-left: 7vh;
-    }
-    .redesSociales-sobremi{
-        margin-left: 7vh;
-    }
-    .redessobremi{
-        font-size: 17px;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
-/*! 370px */
-@media (max-width: 370px){
-    .sobreMi{
-        font-size: 16px;
-    }
-    .mis-habilidades{
-        margin-right: 2vh;
-    }
-    .habilidades{
-        font-size: 16px;
-    }
-    .redessobremi{
-        font-size: 16px;
-    }
-}
-/*! 350px*/
-@media(max-width: 350px){
-    .mis-habilidades{
-        margin-right: 0vh;
-    }
-    .Tarjetas{
-        flex-direction: column;
-       margin-left: 5vh;
-    }
-}
